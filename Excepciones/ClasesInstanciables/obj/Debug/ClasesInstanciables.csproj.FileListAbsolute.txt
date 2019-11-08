@@ -1,0 +1,13 @@
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesInstanciables\bin\Debug\ClasesInstanciables.dll
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesInstanciables\bin\Debug\ClasesInstanciables.pdb
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesInstanciables\bin\Debug\Archivos.dll
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesInstanciables\bin\Debug\ClasesAbstractas.dll
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesInstanciables\bin\Debug\Excepciones.dll
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesInstanciables\bin\Debug\Archivos.pdb
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesInstanciables\bin\Debug\ClasesAbstractas.pdb
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesInstanciables\bin\Debug\Excepciones.pdb
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesInstanciables\obj\Debug\ClasesInstanciables.csprojAssemblyReference.cache
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CoreCompileInputs.cache
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CopyComplete
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesInstanciables\obj\Debug\ClasesInstanciables.dll
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesInstanciables\obj\Debug\ClasesInstanciables.pdb

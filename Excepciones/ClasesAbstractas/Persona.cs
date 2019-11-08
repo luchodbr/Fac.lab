@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Excepciones;
+using System.Text.RegularExpressions;
 
-namespace ClasesAbstractas
+namespace EntidadesAbstractas
 {
     public abstract class Persona
     {
@@ -19,14 +20,14 @@ namespace ClasesAbstractas
         public string Apellido
         {
             get { return this.apellido; }
-            set { this.apellido = value; }
+            set { this.apellido = this.ValidarNombreApellido(value); }
         }
         public int DNI
         {
             get { return this.dni; }
             set
             {
-                this.dni = value;
+                this.dni = this.ValidarDni(this.Nacionalidad, value);
             }
         }
         public ENacionalidad Nacionalidad
@@ -37,12 +38,12 @@ namespace ClasesAbstractas
         public string Nombre
         {
             get { return this.nombre; }
-            set { this.nombre = value; }
+            set { this.nombre = this.ValidarNombreApellido(value); }
         }
 
         public string StringToDNI
         {
-            set { this.dni = 1/*value;*/ ; }
+            set { this.dni = this.ValidarDni(this.Nacionalidad, value); }
         }
 
         #endregion
@@ -52,14 +53,34 @@ namespace ClasesAbstractas
         }
         public Persona(string nombre, string apellido, ENacionalidad nacionalidad)
         {
+            this.Nombre = nombre;
+            this.Apellido = apellido;
+            this.Nacionalidad = nacionalidad;
         }
         public Persona(string nombre, string apellido, int dni, ENacionalidad nacionalidad)
+            :this(nombre, apellido, nacionalidad)
         {
+           
+            this.DNI = dni;
+
         }
         public Persona(string nombre, string apellido, string dni, ENacionalidad nacionalidad)
+            :this(nombre,apellido,nacionalidad)
         {
+            this.StringToDNI= dni;
         }
+        private string ValidarNombreApellido(string dato)
+        {
+            if (Regex.IsMatch(dato, "^[a-zA-Z]+$"))
+            {
 
+                return dato;
+            }
+            else
+            {
+                return null;
+            }
+        }
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
@@ -71,50 +92,56 @@ namespace ClasesAbstractas
 
         private int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
-            if (dato > 1 && dato < 99999999)
+            if (dato >= 1 && dato <= 99999999)
+            {
                 if (nacionalidad == ENacionalidad.Argentino)
                 {
                     if (dato > 89999999)
                     {
-                        throw new NacionalidadInvalidaException();
+                        throw new NacionalidadInvalidaException("la nacionalidad no se condice con el dni");
                     }
-                    else { this.DNI = dato; }
                 }
                 else
                 {
                     if (dato > 89999999)
-                    { this.DNI = dato; }
+                    { }
                     else
                     {
-                    throw new NacionalidadInvalidaException();
+                        throw new NacionalidadInvalidaException("la nacionalidad no se condice con el dni");
                     }
                 }
+            }
             else
             {
                 throw new DniInvalidoException();
             }
 
 
-            return 1;
+            return dato;
         }
         private int ValidarDni(ENacionalidad nacionalidad, string dato)
         {
+            int salida;
             try
             {
-                this.ValidarDni(nacionalidad, int.Parse(dato));
+               salida=this.ValidarDni(nacionalidad, int.Parse(dato));
 
             }
-            catch (Exception e)
+            catch (NacionalidadInvalidaException e)
             {
 
-                throw new DniInvalidoException(e,"Error al parsear el dni, no es un numero");
+                throw e;
             }
-            return 1;
+            catch(Exception e)
+            {
+
+            throw new DniInvalidoException(e, "Error al parsear el dni, no es un numero");
+            }
+
+            return salida;
         }
-        private string ValidarNombreApellido(string dato)
-        {
-            return "";
-        }
+        
+     
         public enum ENacionalidad
         {
             Argentino, Extranjero

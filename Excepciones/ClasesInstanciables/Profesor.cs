@@ -3,18 +3,38 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClasesAbstractas;
+using EntidadesAbstractas;
+using System.Threading;
 namespace ClasesInstanciables
 {
     public sealed class Profesor : Universitario
     {
-        Queue<Universidad.EClases> clasesDelDia;
+        #region Atributos y prop
+
+        public Queue<Universidad.EClases> clasesDelDia;
         static Random random;
 
-        private void _randomClases()
+        #endregion
+
+        #region Constructores
+
+        static Profesor()
         {
-            Profesor.random.Next(1, 4);
+            Profesor.random = new Random();
+
         }
+        public Profesor()
+        {
+
+        }
+        public Profesor(int id, string nombre, string apellido, string dni, ENacionalidad nac):base(id,nombre,apellido,dni,nac)
+        {
+            this.clasesDelDia = new Queue<Universidad.EClases>();
+            _randomClases();
+            _randomClases();
+
+        }
+        #endregion
         protected override string ParticiparEnClase()
         {
             StringBuilder sb = new StringBuilder();
@@ -26,14 +46,11 @@ namespace ClasesInstanciables
             return sb.ToString();
 
         }
-        static Profesor()
+        private void _randomClases()
         {
-            Profesor.random = new Random();
+            this.clasesDelDia.Enqueue((Universidad.EClases)random.Next(0, 3));
+            Thread.Sleep(300);
         }
-        private Profesor()
-        { }
-        public Profesor(int id, string nombre, string apellido, string dni, ENacionalidad nac)
-        { }
         public override string ToString()
         {
             return this.MostrarDatos();
@@ -45,5 +62,22 @@ namespace ClasesInstanciables
             sb.AppendFormat("Clase que da {0} ", this.ParticiparEnClase());
             return sb.ToString();
         }
+        
+        public static bool operator ==(Profesor p, Universidad.EClases e1)
+        {
+            foreach (Universidad.EClases ec in p.clasesDelDia)
+            {
+                if(ec == e1)
+                {
+                    return true;
+                }
+            }
+                return false;
+        }
+        public static bool operator !=(Profesor p, Universidad.EClases e1)
+        {
+            return !(p == e1);
+        }
+
     }
 }

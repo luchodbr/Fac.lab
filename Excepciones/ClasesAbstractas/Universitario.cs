@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClasesAbstractas
+namespace EntidadesAbstractas
 {
     public abstract class Universitario : Persona
     {
         int legajo;
-        public Universitario() : base()
+        public Universitario() //: base()
         {
         }
         public Universitario(int legajo, string nombre, string apellido,string dni
@@ -25,6 +25,11 @@ namespace ClasesAbstractas
             sb.AppendLine(base.ToString());
             sb.AppendFormat("Legajo {0}",this.legajo.ToString());
             return sb.ToString();
+        }
+
+        public override bool Equals(object obj)
+        {
+            return (this.GetType() == obj.GetType() && (((Universitario)obj) == this));
         }
 
         public static bool operator ==(Universitario u1, Universitario u2)

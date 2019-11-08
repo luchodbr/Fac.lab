@@ -1,0 +1,16 @@
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Main\obj\Debug\Main.csprojAssemblyReference.cache
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Main\bin\Debug\Main.exe.config
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Main\bin\Debug\Main.exe
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Main\bin\Debug\Main.pdb
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Main\bin\Debug\Archivos.dll
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Main\bin\Debug\ClasesAbstractas.dll
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Main\bin\Debug\ClasesInstanciables.dll
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Main\bin\Debug\Excepciones.dll
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Main\bin\Debug\Archivos.pdb
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Main\bin\Debug\ClasesAbstractas.pdb
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Main\bin\Debug\ClasesInstanciables.pdb
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Main\bin\Debug\Excepciones.pdb
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Main\obj\Debug\Main.csproj.CopyComplete
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Main\obj\Debug\Main.exe
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Main\obj\Debug\Main.pdb

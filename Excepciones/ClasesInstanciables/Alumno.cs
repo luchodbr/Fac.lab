@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClasesAbstractas;
+using EntidadesAbstractas;
 using Excepciones;
 using Archivos;
 using ClasesInstanciables;
@@ -19,11 +19,19 @@ namespace ClasesInstanciables
         {
 
         }
-        public Alumno(int id, string apellido, string dni, ENacionalidad nacionalidad, Universidad.EClases claseQueToma)
-        { }
-        public Alumno(int id, string apellido, string dni, ENacionalidad
-        nacionalidad, Universidad.EClases claseQueToma, EEstadoCuenta estadoCuenta)
-        { }
+        public Alumno(int id, string nombre, string apellido, string dni,
+            ENacionalidad nacionalidad, Universidad.EClases claseQueToma)
+            :this(id,nombre,apellido,dni,nacionalidad,claseQueToma,EEstadoCuenta.AlDia)
+        {
+
+        }
+        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad
+        nacionalidad, Universidad.EClases claseQueToma, EEstadoCuenta estadoCuenta) 
+            : base(id, nombre, apellido, dni, nacionalidad)
+        {
+            this.clasesQueToma = claseQueToma;
+            this.estadoCuenta = estadoCuenta;
+        }
 
         protected override string ParticiparEnClase()
         {
@@ -59,7 +67,7 @@ namespace ClasesInstanciables
 
         public enum EEstadoCuenta
         {
-            Aldia,Deudor,Becado
+            AlDia, Deudor, Becado
         }
 
     }

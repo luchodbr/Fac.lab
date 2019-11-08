@@ -34,19 +34,20 @@ namespace ClasesInstanciables
 
         private Jornada()
         {
-            this.alumnos = new List<Alumno>();
         }
 
         public Jornada(Universidad.EClases clase, Profesor instructor)
         {
-
+            this.alumnos = new List<Alumno>();
+            this.Clase = clase;
+            this.Profesor = instructor;
         }
 
         public static bool operator ==(Jornada j, Alumno a)
         {
-            foreach (Alumno alumno in j.alumnos)
+            foreach (Alumno alumno in j.Alumnos)
             {
-                if (alumno == a)
+                if (alumno.Equals(a))
                     return true;
             }
             return false;
@@ -70,7 +71,7 @@ namespace ClasesInstanciables
         {
             StringBuilder sb = new StringBuilder();
             sb.Append("Clase de " + this.clase);
-            sb.AppendFormat("NOMBRE COMPLETO {} ", this.Profesor.ToString());
+            sb.AppendFormat("NOMBRE COMPLETO {0} ", this.Profesor.ToString());
             foreach (Alumno alumno in this.Alumnos)
             {
                 sb.AppendLine(alumno.ToString());
@@ -78,10 +79,10 @@ namespace ClasesInstanciables
             return sb.ToString();
         }
 
-        public bool Guardar()
+        public static bool Guardar(Jornada jornada)
         {
             Texto t = new Texto();
-            return t.Guardar("Texto de jornada", this.ToString());
+              return t.Guardar("Texto de jornada", jornada.ToString());
             
         }
         public bool Leer()

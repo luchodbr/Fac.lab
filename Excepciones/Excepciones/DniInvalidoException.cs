@@ -8,7 +8,7 @@ namespace Excepciones
 {
     public class DniInvalidoException : Exception
     {
-        static string mensajeBase;
+        static string mensajeBase = "dni invalido";
 
         public DniInvalidoException():base(mensajeBase)
         {
