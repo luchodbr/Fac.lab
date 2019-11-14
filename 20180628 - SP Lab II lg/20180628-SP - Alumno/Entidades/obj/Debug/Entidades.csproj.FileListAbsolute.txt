@@ -3,3 +3,12 @@ D:\Federico\VB .Net\Visual C#\utn\Examenes\20180628-SP.v1\Entidades\bin\Debug\En
 D:\Federico\VB .Net\Visual C#\utn\Examenes\20180628-SP.v1\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
 D:\Federico\VB .Net\Visual C#\utn\Examenes\20180628-SP.v1\Entidades\obj\Debug\Entidades.dll
 D:\Federico\VB .Net\Visual C#\utn\Examenes\20180628-SP.v1\Entidades\obj\Debug\Entidades.pdb
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\Entidades\bin\Debug\Entidades.dll
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\Entidades\bin\Debug\Entidades.pdb
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\Entidades\obj\Debug\Entidades.dll
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\Entidades\obj\Debug\Entidades.pdb
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\Entidades\bin\Debug\Excepciones.dll
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\Entidades\bin\Debug\Excepciones.pdb
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\Entidades\obj\Debug\Entidades.csproj.CopyComplete

@@ -1,3 +1,20 @@
 D:\Federico\VB .Net\Visual C#\utn\Examenes\20180628-SP\20180628-SP - Alumno\20180628-SP.v1\bin\Debug\20180628-SP.v1.exe.config
 D:\Federico\VB .Net\Visual C#\utn\Examenes\20180628-SP\20180628-SP - Alumno\20180628-SP.v1\obj\Debug\20180628-SP.v1.exe
 D:\Federico\VB .Net\Visual C#\utn\Examenes\20180628-SP\20180628-SP - Alumno\20180628-SP.v1\obj\Debug\20180628-SP.v1.pdb
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\20180628-SP.v1\bin\Debug\20180628-SP.v1.exe.config
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\20180628-SP.v1\bin\Debug\20180628-SP.v1.exe
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\20180628-SP.v1\bin\Debug\20180628-SP.v1.pdb
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\20180628-SP.v1\bin\Debug\Entidades.dll
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\20180628-SP.v1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\20180628-SP.v1\bin\Debug\Entidades.pdb
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\20180628-SP.v1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\20180628-SP.v1\obj\Debug\20180628-SP.Alumno.csprojAssemblyReference.cache
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\20180628-SP.v1\obj\Debug\_20180628_SP.v1.FrmSenadores.resources
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\20180628-SP.v1\obj\Debug\_20180628_SP.v1.Properties.Resources.resources
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\20180628-SP.v1\obj\Debug\20180628-SP.Alumno.csproj.GenerateResource.cache
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\20180628-SP.v1\obj\Debug\20180628-SP.Alumno.csproj.CoreCompileInputs.cache
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\20180628-SP.v1\obj\Debug\20180628-SP.Alumno.csproj.CopyComplete
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\20180628-SP.v1\obj\Debug\20180628-SP.v1.exe
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\20180628-SP.v1\obj\Debug\20180628-SP.v1.pdb
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\20180628-SP.v1\bin\Debug\Excepciones.dll
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\20180628-SP.v1\bin\Debug\Excepciones.pdb

@@ -23,14 +23,6 @@ namespace Entidades
 
     private Dictionary<string,EVoto> senadores;
 
-    public Dictionary<string,EVoto> Senadores
-    {
-      get { return senadores; }
-      set { senadores = value; }
-    }
-
-
-
     private short contadorAfirmativo;
 
     public short ContadorAfirmativo
@@ -77,7 +69,7 @@ namespace Entidades
       for (int index = 0; index < this.senadores.Count; index++)
       {
         // Duermo el hilo
-        System.Threading.Thread.Sleep(2134);
+        System.Threading.Thread.Sleep(10);
 
         // Leo el senador actual
         KeyValuePair<string, EVoto> k = this.senadores.ElementAt(index);
@@ -87,9 +79,9 @@ namespace Entidades
         this.senadores[k.Key] = (EVoto)r.Next(0, 3);
 
         // Invocar Evento
-        this.EventoVotoEfectuado.Invoke(k.Key,k.Value);
+        this.EventoVotoEfectuado.Invoke(k.Key,this.senadores[k.Key]);
         // Incrementar contadores
-        switch (k.Value)
+        switch (this.senadores[k.Key])
         {
           case EVoto.Afirmativo:
             this.contadorAfirmativo++;

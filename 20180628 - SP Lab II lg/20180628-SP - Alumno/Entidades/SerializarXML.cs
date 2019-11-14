@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 using System.Xml;
+using Excepciones;
 namespace Entidades
 {
   public class SerializarXML<T> : IArchivos<T>
@@ -24,8 +25,8 @@ namespace Entidades
       }
       catch (Exception e)
       {
-        //throw new ErrorArchivoException(e)
-        throw e;
+                throw new ErrorArchivoException("Error al leer el archivo",e);
+        //throw e;
       }
     }
     public bool Guardar(string RutaArchivo, T vot)
@@ -41,8 +42,8 @@ namespace Entidades
       }
       catch (Exception e)
       {
-        //throw new ErrorArchivoException(e)
-        throw e;
+                throw new ErrorArchivoException("Error al guardar el archivo",e);
+        //throw e;
       }
 
     }

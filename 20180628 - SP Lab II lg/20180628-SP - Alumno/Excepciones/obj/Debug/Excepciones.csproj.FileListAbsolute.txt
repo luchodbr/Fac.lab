@@ -1,0 +1,6 @@
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\Excepciones\bin\Debug\Excepciones.dll
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\Excepciones\bin\Debug\Excepciones.pdb
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\Excepciones\obj\Debug\Excepciones.dll
+D:\lgil\Fac.lab\20180628 - SP Lab II lg\20180628-SP - Alumno\Excepciones\obj\Debug\Excepciones.pdb
