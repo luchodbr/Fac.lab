@@ -1,0 +1,18 @@
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Archivos\bin\Debug\Archivos.dll
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Archivos\bin\Debug\Archivos.pdb
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Archivos\bin\Debug\Excepciones.dll
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Archivos\bin\Debug\Excepciones.pdb
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Archivos\obj\Debug\Archivos.csproj.CopyComplete
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Archivos\obj\Debug\Archivos.dll
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\Archivos\obj\Debug\Archivos.pdb
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\Archivos\bin\Debug\Archivos.dll
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\Archivos\bin\Debug\Archivos.pdb
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\Archivos\bin\Debug\Excepciones.dll
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\Archivos\bin\Debug\Excepciones.pdb
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\Archivos\obj\Debug\Archivos.csproj.CopyComplete
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\Archivos\obj\Debug\Archivos.dll
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\Archivos\obj\Debug\Archivos.pdb

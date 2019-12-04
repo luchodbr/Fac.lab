@@ -1,0 +1,22 @@
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesAbstractas\bin\Debug\ClasesAbstractas.dll
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesAbstractas\bin\Debug\ClasesAbstractas.pdb
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesAbstractas\bin\Debug\Archivos.dll
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesAbstractas\bin\Debug\Excepciones.dll
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesAbstractas\bin\Debug\Archivos.pdb
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesAbstractas\bin\Debug\Excepciones.pdb
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesAbstractas\obj\Debug\EntidadesAbstractas.csprojAssemblyReference.cache
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesAbstractas\obj\Debug\EntidadesAbstractas.csproj.CoreCompileInputs.cache
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesAbstractas\obj\Debug\EntidadesAbstractas.csproj.CopyComplete
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesAbstractas\obj\Debug\ClasesAbstractas.dll
+C:\Users\lgil\Desktop\Git Fac\Fac.lab\Excepciones\ClasesAbstractas\obj\Debug\ClasesAbstractas.pdb
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\ClasesAbstractas\bin\Debug\ClasesAbstractas.dll
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\ClasesAbstractas\bin\Debug\ClasesAbstractas.pdb
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\ClasesAbstractas\bin\Debug\Archivos.dll
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\ClasesAbstractas\bin\Debug\Excepciones.dll
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\ClasesAbstractas\bin\Debug\Archivos.pdb
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\ClasesAbstractas\bin\Debug\Excepciones.pdb
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\ClasesAbstractas\obj\Debug\EntidadesAbstractas.csprojAssemblyReference.cache
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\ClasesAbstractas\obj\Debug\EntidadesAbstractas.csproj.CoreCompileInputs.cache
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\ClasesAbstractas\obj\Debug\EntidadesAbstractas.csproj.CopyComplete
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\ClasesAbstractas\obj\Debug\ClasesAbstractas.dll
+C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\ClasesAbstractas\obj\Debug\ClasesAbstractas.pdb
