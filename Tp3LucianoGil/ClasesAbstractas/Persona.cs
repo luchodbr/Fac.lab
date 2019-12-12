@@ -72,7 +72,7 @@ namespace EntidadesAbstractas
         private string ValidarNombreApellido(string dato)
         {
 
-            if (Regex.IsMatch(dato, "^[a-zA-Z]+$"))
+            if (Regex.IsMatch(dato, "^[a-zA-ZñÑ]+$"))
             {
 
                 return dato;

@@ -10,3 +10,9 @@ C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\Excepciones\obj\
 C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
 C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\Excepciones\obj\Debug\Excepciones.dll
 C:\Users\lgil\Desktop\tp_laboratorio2_2019-master\Tp3LucianoGil\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\lgil\Desktop\asd\Fac.lab\Tp3LucianoGil\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\lgil\Desktop\asd\Fac.lab\Tp3LucianoGil\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\lgil\Desktop\asd\Fac.lab\Tp3LucianoGil\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\lgil\Desktop\asd\Fac.lab\Tp3LucianoGil\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\lgil\Desktop\asd\Fac.lab\Tp3LucianoGil\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\lgil\Desktop\asd\Fac.lab\Tp3LucianoGil\Excepciones\obj\Debug\Excepciones.pdb

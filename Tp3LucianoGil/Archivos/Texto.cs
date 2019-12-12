@@ -11,7 +11,7 @@ namespace Archivos
     public class Texto : IArchivo<string>
     {
         /// <summary>
-        /// Guarda los datos en la ruta pasada por parametro.
+        /// Guarda los datos en la ruta pasada por el parametro "Arhivo".
         /// </summary>
         /// <param name="archivo"></param>
         /// <param name="datos"></param>

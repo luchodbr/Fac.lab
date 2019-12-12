@@ -9,6 +9,8 @@ namespace ClasesInstanciables
     [Serializable]
     public class Jornada
     {
+        #region Atrib y Prop
+
         private List<Alumno> alumnos;
 
         public List<Alumno> Alumnos
@@ -32,8 +34,11 @@ namespace ClasesInstanciables
             get { return profesor; }
             set { profesor = value; }
         }
+        #endregion
 
-        private Jornada()
+        #region Constructores
+
+        public Jornada()
         {
         }
 
@@ -43,6 +48,9 @@ namespace ClasesInstanciables
             this.Clase = clase;
             this.Profesor = instructor;
         }
+        #endregion
+
+        #region Sobrecargas
 
         public static bool operator ==(Jornada j, Alumno a)
         {
@@ -67,11 +75,10 @@ namespace ClasesInstanciables
             }
             return j;
         }
-
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append("CLASE DE " +this.clase+" POR ");
+            sb.Append("CLASE DE " + this.clase + " POR ");
             sb.Append(this.Profesor.ToString());
             sb.AppendLine("ALUMNOS: ");
             foreach (Alumno alumno in this.Alumnos)
@@ -80,6 +87,10 @@ namespace ClasesInstanciables
             }
             return sb.ToString();
         }
+        #endregion
+
+        #region Metodos
+
 
         public static bool Guardar(Jornada jornada)
         {
@@ -94,5 +105,7 @@ namespace ClasesInstanciables
             return t.Leer("Jornada.txt", out string s);
 
         }
+        #endregion
+
     }
 }

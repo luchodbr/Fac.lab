@@ -7,7 +7,7 @@ using Archivos;
 namespace PruebaUniversidad
 {
     [TestClass]
-    public class UnitTest1
+    public class PruebasUnitarias
     {
         [TestMethod]
         [ExpectedException(typeof(DniInvalidoException))]
@@ -57,8 +57,8 @@ namespace PruebaUniversidad
                 u += Universidad.EClases.SPD;
                 u += Universidad.EClases.Legislacion;
             }
-            catch (Exception e)//por si no puede crear la jornada nueva al no tener                                 
-            {               //un profesor que de la clase (es aleatoria la clase que da el prof)
+            catch (Exception e)
+            {             
 
             }
             foreach (Jornada j in u.Jornadas)

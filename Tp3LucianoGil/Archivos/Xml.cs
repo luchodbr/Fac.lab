@@ -13,7 +13,7 @@ namespace Archivos
     public class Xml<T> : IArchivo<T>
     {
         /// <summary>
-        /// Guarda los datos en la ruta pasada por parametro en un .xml.
+        /// Guarda los datos en la ruta pasada por el parametro "archivo" en un .xml.
         /// </summary>
         /// <param name="archivo"></param>
         /// <param name="datos"></param>
@@ -36,7 +36,7 @@ namespace Archivos
         }
 
         /// <summary>
-        /// Lee el archivo xml de la ruta pasada por parametro y los guarda en datos.
+        /// Lee el archivo xml de la ruta pasada por parametro y los guarda en el auxiliar "datos".
         /// </summary>
         /// <param name="archivo"></param>
         /// <param name="datos"></param>

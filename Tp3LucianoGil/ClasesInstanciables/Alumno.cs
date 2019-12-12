@@ -12,9 +12,14 @@ namespace ClasesInstanciables
 {
     public class Alumno : Universitario
     {
+        #region Atrib y prop
 
         Universidad.EClases clasesQueToma;
         EEstadoCuenta estadoCuenta;
+        #endregion
+
+        #region Constructores
+
         public Alumno()
         {
 
@@ -32,6 +37,9 @@ namespace ClasesInstanciables
             this.clasesQueToma = claseQueToma;
             this.estadoCuenta = estadoCuenta;
         }
+        #endregion
+
+        #region Metodos y overrides 
 
         protected override string ParticiparEnClase()
         {
@@ -63,6 +71,7 @@ namespace ClasesInstanciables
             else
                 return false;
         }
+        #endregion
 
 
         public enum EEstadoCuenta

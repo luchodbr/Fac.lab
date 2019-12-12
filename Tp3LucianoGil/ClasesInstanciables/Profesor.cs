@@ -11,7 +11,7 @@ namespace ClasesInstanciables
     {
         #region Atributos y prop
 
-        public Queue<Universidad.EClases> clasesDelDia;
+        private Queue<Universidad.EClases> clasesDelDia;
         static Random random;
 
         #endregion
@@ -34,6 +34,12 @@ namespace ClasesInstanciables
 
         }
         #endregion
+
+        #region Metodos y Sobrecargas
+        /// <summary>
+        /// Retorna las clases que da el profesor
+        /// </summary>
+        /// <returns></returns>
         protected override string ParticiparEnClase()
         {
             StringBuilder sb = new StringBuilder();
@@ -45,6 +51,9 @@ namespace ClasesInstanciables
             return sb.ToString();
 
         }
+        /// <summary>
+        /// Asigna dos clases random al profesor
+        /// </summary>
         private void _randomClases()
         {
             this.clasesDelDia.Enqueue((Universidad.EClases)random.Next(0, 3));
@@ -78,6 +87,7 @@ namespace ClasesInstanciables
         {
             return !(p == e1);
         }
+        #endregion
 
     }
 }

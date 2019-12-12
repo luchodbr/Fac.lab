@@ -75,7 +75,7 @@ namespace ClasesInstanciables
         }
         #endregion
 
-        #region Met
+        #region Metodos
 
         /// <summary>
         /// Guarda en el archivo XML
@@ -104,6 +104,11 @@ namespace ClasesInstanciables
             }
             return null;
         }
+        /// <summary>
+        /// Muestra los datos de cada Jornada dentro de la universidad
+        /// </summary>
+        /// <param name="uni"></param>
+        /// <returns></returns>
         private string MostrarDatos(Universidad uni)
         {
             StringBuilder sb = new StringBuilder();
